@@ -7,14 +7,12 @@ namespace Empleados_y_Empresa.Models;
 
 public class Empleado:Persona
 {  
-    public Guid Id { get; private set; }
     public string? Posicion { get; set; }
     public double Salario { get; set; }
     public byte PorcentajeBonificacion { get; set; }
 
     public Empleado(string nombre, string apellido, string identificacion, byte edad, string posicion, double salario):base(nombre,apellido,identificacion,edad)
     {
-        Id = Guid.NewGuid();
         Posicion=posicion;
         Salario=salario;
         PorcentajeBonificacion=0;

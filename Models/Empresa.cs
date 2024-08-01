@@ -42,7 +42,7 @@ public class Empresa
         Console.Clear();
         Console.WriteLine($"Buscando a {fullname}");
 
-        var empleadoAEliminar = ListaEmpleados.Find(e => $"{e.Nombre} {e.Apellido}" == fullname);
+        var empleadoAEliminar = ListaEmpleados.Find(e => $"{e.MostrarNombre()} {e.MostrarApellido()}" == fullname);
 
         if (empleadoAEliminar != null)
         {
@@ -67,7 +67,7 @@ public class Empresa
         Console.Clear();
         Console.WriteLine($"Buscando a {fullname}");
 
-        var clienteAEliminar = ListaClientes.Find(e => $"{e.Nombre} {e.Apellido}" == fullname);
+        var clienteAEliminar = ListaClientes.Find(e => $"{e.MostrarNombre()} {e.MostrarApellido()}" == fullname);
 
         if (clienteAEliminar != null)
         {
@@ -106,7 +106,7 @@ public class Empresa
         Console.Write("Ingrese el numero de identificacion: ");
         string identificacion = Console.ReadLine() ?? throw new InvalidOperationException("Entrada inválida para número de identificación.");
 
-        var personaEncontrado = ListaEmpleados.Find(e => e.NumeroDeIdentificacion == identificacion);
+        var personaEncontrado = ListaEmpleados.Find(e => e.MostrarIdentificacion() == identificacion);
 
         if (personaEncontrado != null)
         {
@@ -114,7 +114,7 @@ public class Empresa
             while (editar)
             {
                 Console.Clear();
-                Console.WriteLine($"Seleccione la propiedad que desea editar de {personaEncontrado.Nombre} {personaEncontrado.Apellido}:");
+                Console.WriteLine($"Seleccione la propiedad que desea editar de {personaEncontrado.MostrarNombre()} {personaEncontrado.MostrarApellido()}:");
                 Console.WriteLine("1. Nombre ");
                 Console.WriteLine("2. Apellido");
                 Console.WriteLine("3. Numero de identificacion");
@@ -129,22 +129,26 @@ public class Empresa
                 {
                     case "1":
                         Console.Write("Ingrese el nuevo nombre: ");
-                        personaEncontrado.Nombre = Console.ReadLine();
+                        string nombre = Console.ReadLine()?? "";
+                        personaEncontrado.ModificarNombre(nombre);
                         break;
 
                     case "2":
                         Console.Write("Ingrese el nuevo apellido: ");
-                        personaEncontrado.Apellido = Console.ReadLine();
+                        string apellido = Console.ReadLine()?? "";
+                        personaEncontrado.ModificarNombre(apellido);
                         break;
 
                     case "3":
                         Console.Write("Ingrese el nuevo Numero de Identificacion: ");
-                        personaEncontrado.NumeroDeIdentificacion = Console.ReadLine();
+                        string iden = Console.ReadLine()?? "";
+                        personaEncontrado.ModificarNombre(iden);
                         break;
 
                     case "4":
                         Console.WriteLine("Ingrese la nueva Edad: ");
-                        personaEncontrado.Edad = Convert.ToByte(Console.ReadLine());
+                        byte edad = Convert.ToByte(Console.ReadLine());
+                        personaEncontrado.ModificarEdad(edad);
                         break;
 
                     case "5":
@@ -189,7 +193,7 @@ public class Empresa
         Console.Write("Ingrese el numero de identificacion: ");
         string identificacion = Console.ReadLine() ?? throw new InvalidOperationException("Entrada inválida para número de identificación.");
 
-        var personaEncontrado = ListaEmpleados.Find(e => e.NumeroDeIdentificacion == identificacion);
+        var personaEncontrado = ListaEmpleados.Find(e => e.MostrarIdentificacion() == identificacion);
 
         if (personaEncontrado != null)
         {
