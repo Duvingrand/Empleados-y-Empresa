@@ -47,13 +47,13 @@ public static class Menú
                 case 1:
                     Console.Clear();
                     Console.WriteLine("Has seleccionado la Opción Agregar Empleado");
-
+                    empresa1.AgregarEmpleado(empresa1.CrearEmpleado());
 
                     break;
                 case 2:
                     Console.Clear();
                     Console.WriteLine("Has seleccionado la Opción Agregar Cliente");
-
+                    empresa1.AgregarCliente(empresa1.CrearCliente());
 
                     break;
                 case 3:

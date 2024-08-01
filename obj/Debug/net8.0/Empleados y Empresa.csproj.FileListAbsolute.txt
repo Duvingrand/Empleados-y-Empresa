@@ -12,3 +12,4 @@
 /home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.pdb
 /home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.genruntimeconfig.cache
 /home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/ref/Empleados y Empresa.dll
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.sourcelink.json

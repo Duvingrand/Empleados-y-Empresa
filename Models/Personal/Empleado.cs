@@ -32,13 +32,19 @@ public class Empleado:Persona
 
     public override string MostrarInfo(){
         string info= @$"
+        ----------------------------------------------------------------------
+        
+        Nombre: {Nombre} {Apellido}
+        ID personal: {NumeroDeIdentificacion}
+        Edad: {Edad}
         --------------DATOS DE EMPLEADO----------------
         ID:{Id}
         Posicion: {Posicion}
         Salario Inicial: {Salario}
         Bonificacion: {CalcularBonificacion()}
         Salario: {Salario+CalcularBonificacion()}";
-        return base.MostrarInfo()+info;
+        return info;
+        // return base.MostrarInfo()+info;
     }
 
 }

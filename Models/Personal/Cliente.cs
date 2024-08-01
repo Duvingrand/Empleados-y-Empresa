@@ -19,10 +19,15 @@ public class Cliente : Persona
     public override string MostrarInfo()
     {
         string info = @$"
+        ----------------------------------------------------------------------
+        
+        Nombre: {Nombre} {Apellido}
+        ID personal: {NumeroDeIdentificacion}
+        Edad: {Edad}
         --------------CONTACTO----------------
         Correo: {Email}
         Telefono: {Telefono}";
-        return base.MostrarInfo() + info;
+        return info;
     }
 
 }

@@ -31,6 +31,64 @@ public class Empresa
         ListaClientes.Add(cliente);
     }
     //--------------------------------------------------------------------------------------------------------
+    public Empleado CrearEmpleado(){
+        Console.Clear();
+        Console.WriteLine("Ingrese el Nombre del nuevo empleado");
+        string nombre=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese el Apellido del nuevo empleado");
+        string apellido=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese el Numero de identificacion del nuevo empleado");
+        string identificacion=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese la Edad del empleado");
+        byte edad=Convert.ToByte(Console.ReadLine());
+        Console.Clear();
+
+        Console.WriteLine("Ingrese la Posicion del nuevo empleado");
+        string posicion=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese el Salario base del nuevo empleado");
+        double salario=Convert.ToDouble(Console.ReadLine());
+
+        return new Empleado(nombre,apellido,identificacion,edad,posicion,salario);
+
+    }
+    public Cliente CrearCliente(){
+        Console.Clear();
+        Console.WriteLine("Ingrese el Nombre del nuevo cliente");
+        string nombre=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese el Apellido del nuevo cliente");
+        string apellido=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese el Numero de identificacion del nuevo cliente");
+        string identificacion=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese la Edad del cliente");
+        byte edad=Convert.ToByte(Console.ReadLine());
+        Console.Clear();
+
+        Console.WriteLine("Ingrese el correo del nuevo empleado");
+        string email=Console.ReadLine()??"";
+        Console.Clear();
+
+        Console.WriteLine("Ingrese el telefono del nuevo empleado");
+        string telefono=Console.ReadLine()??"";
+
+        return new Cliente(nombre,apellido,identificacion,edad,email,telefono);
+    }
+
+
+    //--------------------------------------------------------------------------------------------------------
     public void EliminarEmpleado()
     {
         Console.Clear();

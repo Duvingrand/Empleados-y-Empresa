@@ -64,16 +64,8 @@ public abstract class Persona
         return name;
     }
 
-    public virtual string MostrarInfo()
-    {
-        string info = $@"----------------------------------------------------------------------
-        
-        Nombre: {Nombre} {Apellido}
-        ID personal: {NumeroDeIdentificacion}
-        Edad: {Edad}
-        ";
-        return info;
-    }
+    public abstract string MostrarInfo();
+
 
 
 
