@@ -1,0 +1,14 @@
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/bin/Debug/net8.0/Empleados y Empresa
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/bin/Debug/net8.0/Empleados y Empresa.deps.json
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/bin/Debug/net8.0/Empleados y Empresa.runtimeconfig.json
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/bin/Debug/net8.0/Empleados y Empresa.dll
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/bin/Debug/net8.0/Empleados y Empresa.pdb
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.GeneratedMSBuildEditorConfig.editorconfig
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.AssemblyInfoInputs.cache
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.AssemblyInfo.cs
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.csproj.CoreCompileInputs.cache
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.dll
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/refint/Empleados y Empresa.dll
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.pdb
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/Empleados y Empresa.genruntimeconfig.cache
+/home/riwip5-001/Escritorio/ProjecsDell_Brayan Felipe Rodriguez Mosquera/C#/talleres en clase/Empleados y Empresa/obj/Debug/net8.0/ref/Empleados y Empresa.dll
